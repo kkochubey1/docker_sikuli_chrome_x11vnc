@@ -4,7 +4,7 @@ Github repo: https://github.com/kkochubey1/docker_sikuli_chrome_x11vnc
 
 Dockerfile: https://github.com/kkochubey1/docker_sikuli_chrome_x11vnc/blob/master/Dockerfile
 
-# docker-sikuli-chrome-x11vnc
+# sikuli-chrome-x11vnc
 Docker image with sikuli-ide, chrome browser and vnc server for sikuli script development inside of running docker container for web routine automation in chrome browser with vnc remote access.
 
 Workflow:
