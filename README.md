@@ -15,7 +15,7 @@ Workflow:
 start container with VNC server on port 5901
 
 ```
-docker run -d -t --name sikuli_5901 -v $(pwd):/home/seluser/scripts -p 5901:5900 kkochubey1/docker-sikuli-chrome-x11vnc:latest
+docker run -d -t --name sikuli_5901 -v $(pwd):/home/seluser/scripts -p 5901:5900 kkochubey1/sikuli-chrome-x11vnc:latest
 ```
 
 ## Open VNC
