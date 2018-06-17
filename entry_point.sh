@@ -11,7 +11,7 @@ function shutdown {
 export DISPLAY=:0
 
 sudo -E -i -u seluser \
-  Xvfb $DISPLAY -screen 0 $GEOMETRY &
+  Xvfb $DISPLAY -screen 0 $GEOMETRY +extension RANDR &
 NODE_PID=$!
 
 #trap shutdown SIGTERM SIGINT
